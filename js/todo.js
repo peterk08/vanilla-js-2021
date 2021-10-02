@@ -18,12 +18,13 @@ function deleteToDo(event) {
 
 function paintToDo(newTodo) {
     const li = document.createElement("li");
+    li.id = newTodo.id;
     const span = document.createElement("span");
     span.innerText = newTodo;
 
     const button = document.createElement("button");
     button.innerText = `💥`;
-    button.addEventListener("click", deleteToDo)
+    button.addEventListener("click", deleteToDo);
     li.appendChild(span);
     li.appendChild(button);
     toDoList.appendChild(li);
@@ -39,3 +40,9 @@ function handleToDoSubmit(event) {
 }
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
+
+if (saveToDos !== null) {
+    const parsedToDos = JSON.parse(saveToDos);
+    toDos = parsedToDos;
+    parsedToDos.forEach(paintToDo);
+}

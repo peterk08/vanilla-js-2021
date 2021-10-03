@@ -1,88 +1,94 @@
-
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: transparent;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    position: relative;
-    padding-top: 250px;
-  }
-
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  padding-top: 250px;
+}
 
 .clock {
-    color: #F1948A;
-    font-size: 10em;
-    font-weight: 1000;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+  color: #f1948a;
+  font-size: 10em;
+  font-weight: 1000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
-  .weather {
-    background-color: black;
-    position: fixed;
-    right: 12px;
-    top: 10px;
-    font-style: italic;
-    font-size: 1em;
-    color: whitesmoke;
-  }
+.weather {
+  background-color: black;
+  position: fixed;
+  right: 12px;
+  top: 10px;
+  font-style: italic;
+  font-size: 1em;
+  color: whitesmoke;
+}
 
-  .lyrics {
-      color:indigo;
-      font-size: 20px;
-      border: solid 5px indigo;
-      background-color: white;
-  }
-  .album {
-    position: center;
-    color:whitesmoke;
-    background-color: indigo;
-    font-size: 15px;
-  }
+.lyrics {
+  color: indigo;
+  font-size: 20px;
+  border: solid 5px indigo;
+  background-color: white;
+}
 
-  .name {
-    font-weight:bold;  
-    font-size:x-large;
-    color: gray;
-    margin-bottom: 1em;
-  }
-  .input{
-    color: indigo;
-    border: solid 2px indigo;
-    font-weight:bold;
-    font-size:x-large;
-  }
-  #greeting {
-    color:black;
-    font-size: x-large;
-    border: solid 2px indigo;
-    background-color: white;
-  }
+.album {
+  position: center;
+  color: whitesmoke;
+  background-color: indigo;
+  font-size: 15px;
+}
 
- ul {
-    color:indigo;
-    font-size: x-large;
-    border: solid 3px indigo;
-    background-color: white;
-  }
+.name {
+  font-weight: bold;
+  font-size: x-large;
+  color: gray;
+  margin-bottom: 1em;
+}
+.input {
+  color: indigo;
+  border: solid 2px indigo;
+  font-weight: bold;
+  font-size: x-large;
+}
+#greeting {
+  color: black;
+  font-size: x-large;
+  border: solid 2px indigo;
+  background-color: white;
+}
 
-  label {
-    color:indigo;
-    font-size: x-large;
-    font-weight:bold;
-  }
+ul {
+  color: indigo;
+  font-size: x-large;
+  border: solid 3px indigo;
+  background-color: white;
+}
 
-  h1 {
-      display: inline;
-  }
+label {
+  color: indigo;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h1 {
+  display: inline;
+}
+
+audio {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  position: fixed;
+}

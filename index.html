@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="short icon" href="img/icon.jpg" type=".jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="short icon" href="img/icon.jpg" type=".jpg" />
     <title>R.I.P. Mac Miller Todo-list</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2 class="clock">00:00:00</h2>
-    <form class="hidden" id = "login-form">
-        <label>Name:
-        <input class="name"
-        required
-        maxlength="25"
-        type="text"
-        placeholder="Are you a hustler?"
-        />
-     </label><input type="submit" value="submit" />
+    <form class="hidden" id="login-form">
+      <label
+        >Name:
+        <input
+          class="name"
+          required
+          maxlength="25"
+          type="text"
+          placeholder="Are you a hustler?"
+        /> </label
+      ><input type="submit" value="submit" />
     </form>
-    
+
     <h1 id="greeting" class="hidden"></h1>
     <form id="todo-form">
-        <label>What to do: </label><input  class="input" type="text" placeholder="Get the job done correctly." required />
-        <input type="submit" value="submit" />
+      <label>What to do: </label
+      ><input
+        class="input"
+        type="text"
+        placeholder="Get the job done correctly."
+        required
+      />
+      <input type="submit" value="submit" />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
-        <span class="lyrics"></span><br><br>
-        <span class="album"></span>
-    </div> 
+      <span class="lyrics"></span><br /><br />
+      <span class="album"></span>
+    </div>
     <div class="weather">
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
@@ -41,5 +49,8 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
-</body>
+    <audio controls autoplay>
+      <source src="audio/hand-me-downs.mp3" type="audio/mp3" />
+    </audio>
+  </body>
 </html>
